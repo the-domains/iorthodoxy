@@ -1,14 +1,26 @@
-layout_spectrum: 0.6829787
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.9231095
 color:
   saturation: 0.4697147
-  lightness: 0.2521743
   brandStrength: 0.8330354
+  rhythmicContrast: 0.2856345
   brandColors:
     - '#250D0D'
     - '#764616'
     - '#AB7617'
     - '#DC9512'
     - '#FADE11'
-  rhythmicContrast: 0.2856345
+  lightness: 0.2521743
+layout_spectrum: 1
 name: iOrthodoxy
