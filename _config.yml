@@ -4,12 +4,12 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 typography_spectrum: 0.9231095
 color:
   saturation: 0.4697147
@@ -22,5 +22,5 @@ color:
     - '#DC9512'
     - '#FADE11'
   lightness: 0.2521743
-layout_spectrum: 1
+layout_spectrum: 0.2468085
 name: iOrthodoxy
